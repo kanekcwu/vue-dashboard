@@ -11,9 +11,10 @@
       <div class="logo">
         <a href="#" class="simple-text">
             <div class="logo-img">
-                <img src="@/assets/img/vue-logo.png" alt="">
+                <img src="@/assets/img/forward.png" alt="">
             </div>
-          {{title}}
+            <div class="sidebar-spacer"></div>
+            <div>{{title}}</div>
         </a>
       </div>
       <slot>
@@ -43,7 +44,7 @@ export default {
   props: {
     title: {
       type: String,
-      default: "Paper Dashboard"
+      default: "Forward - Global Freight Management"
     },
     backgroundColor: {
       type: String,

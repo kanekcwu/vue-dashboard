@@ -51,7 +51,7 @@
       font-size: $font-size-base;
       text-align: center;
       font-weight: $font-weight-bold;
-      line-height: 40px;
+      line-height: 20px;
       text-align: left;
 
       .logo-img{
@@ -60,12 +60,12 @@
           height: 40px;
           margin-left: 0px;
           margin-right: 10px;
-          background: white;
           border-radius: 40px;
           text-align: center;
 
         img{
-            max-width: 21px;
+            max-width: 75px;
+            padding-bottom: 30px;
         }
       }
     }
@@ -193,4 +193,8 @@
   height: 100%;
   overflow: hidden;
   overflow-y: hidden;
+}
+
+.sidebar-spacer {
+  height: 20px;
 }

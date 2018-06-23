@@ -4,7 +4,13 @@
       <nav>
         <ul>
           <li>
-            <router-link :to="{path:'/admin'}">Dashboard</router-link>
+            <router-link :to="{path:'/dashboard'}">Dashboard</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/maps'}">Map</router-link>
+          </li>
+          <li>
+            <router-link :to="{path:'/notifications'}">Notifications</router-link>
           </li>
         </ul>
       </nav>
