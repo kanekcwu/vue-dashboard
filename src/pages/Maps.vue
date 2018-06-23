@@ -1,8 +1,6 @@
 <template>
-    <card class="card-map" title="Google Maps">
-      <div class="map">
-        <div id="map"></div>
-      </div>
+    <card class="card-map" title="Map">
+        <iframe src="http://localhost:8081/#/" width="1080" height="1000"></iframe>
     </card>
 </template>
 <script>
